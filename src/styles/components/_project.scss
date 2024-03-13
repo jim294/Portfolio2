@@ -1,0 +1,75 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+  color: $color-1;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    ul {
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    figure {
+      display: flex;
+    }
+  }
+
+  &__title {
+    font-size: 60px;
+  }
+
+  &__location {
+    font-size: 30px;
+  }
+
+  &__tags {
+    padding: 10px 40px;
+    list-style-type: none;
+    background-color: $color-1;
+    color: $color-2;
+    border-radius: 10px;
+  }
+
+  &__photo-profil {
+    border-radius: 50%;
+    height: 64px;
+  }
+
+  &__photo-nom {
+    font-size: 18px;
+    text-align: right;
+  }
+}
+
+h2 {
+  a {
+    font-size: 30px;
+  }
+}
+
+.collapseLiens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 10px;
+  h4 {
+    font-size: 30px;
+    margin-top: 50px;
+    color: red;
+  }
+}

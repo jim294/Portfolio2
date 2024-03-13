@@ -1,0 +1,61 @@
+{
+  "languages":
+[
+	{
+		"title": "https://i.postimg.cc/DZdZzDnD/html5.gif",
+		"description":
+		"Html5"
+	},
+	{
+		"title": "https://i.postimg.cc/hvsNh8Jc/css.gif",
+		"description":
+		"Css"
+	},
+	{
+		"title": "https://i.postimg.cc/mDTmfNKN/js.gif",
+		"description": "javaScript"
+	},
+	{
+	  "title": "https://i.postimg.cc/bwV4pMqY/sass.gif",
+	  "description":
+		"Sass"
+	},
+	{
+		"title": "https://i.postimg.cc/yNr0nM0R/mongo.gif",
+		"description": "MongoDb"
+	  }
+  ],
+
+  "frameworks":
+  [
+	{
+		"title": "https://i.postimg.cc/W4hCzPnY/react.webp",
+		"description":
+		  "React"
+	  },
+	  {
+		"title": "https://i.postimg.cc/zvPcwt0X/nodejs.gif",
+		"description":
+		  "Node.js + Express.js"
+	  }
+  ],
+
+  "tools":
+  [
+	{
+		"title": "https://i.postimg.cc/hj5pYC7J/GitHub.gif",
+		"description":
+		  "GitHub"
+	  },
+	  {
+		"title": "https://i.postimg.cc/1znz1X8v/photoshop.gif",
+		"description":
+		  "Photoshop"
+	  },
+	  {
+		"title": "https://i.postimg.cc/056hGSLW/premiere-pro.gif",
+		"description":
+		  "Premiere pro"
+	  }
+  ]
+}
