@@ -1,10 +1,10 @@
 .cardsBackground {
   border-radius: 25px;
   display: grid;
-  grid-gap: 80px;
+  grid-gap: 100px;
   padding: 20px;
   width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   a {
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@
     object-fit: contain;
     margin: 0 auto;
     padding: 10px;
-    background-color: $color-3;
+    background-color: white;
   }
 
   &__text__subtitle {
