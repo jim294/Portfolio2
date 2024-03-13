@@ -13,32 +13,32 @@
     cursor: pointer;
 
     &:hover {
-      background-color: rgb(70, 68, 68);
+      background-color: $color-2;
     }
   }
 
   &__title {
-    color: white;
+    color: $color-3;
+    background-color: $color-1;
     font-size: 24px;
   }
 
   &__icon {
     width: 32px;
+    background-color: $color-1;
   }
 
   &__content {
     width: 100%;
     height: 100%;
-    background-color: #ebd8df;
     border-radius: 10px 10px 5px 5px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
     a {
-      color: black;
+      color: $color-3;
     }
-
-    div {
+    p {
       font-size: 18px;
       padding: 15px;
       line-height: 25px;

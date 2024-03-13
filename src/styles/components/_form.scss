@@ -4,6 +4,7 @@
   width: 900px;
   gap: 30px;
   font-weight: 900;
+  color: $color-3;
 
   .case {
     display: flex;
@@ -13,19 +14,25 @@
       width: 200px;
       height: 30px;
       padding: 10px;
+      background-color: $color-3;
     }
     textarea {
       padding: 10px;
       height: 300px;
+      background-color: $color-3;
     }
   }
-
+  
   .submit {
     height: 60px;
     width: 150px;
-    background-color: $color-1;
-    color: $color-2;
+    color: $color-3;
     font-size: 20px;
     font-weight: 800;
+    background-color: $color-1;
+  }
+
+  textarea {
+    background: #C2E6FF;
   }
 }

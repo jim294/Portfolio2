@@ -33,9 +33,12 @@
   padding-bottom: 20px;
   align-items: center;
   text-align: center;
+  line-height: 1.5;
   gap: 30px;
+  color: $color-3;
   p {
     width: 500px;
+    line-height: 1.5;
   }
   img {
     height: 200px;
@@ -46,13 +49,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.homeLiens {
-  display: flex;
-  flex-direction: column;
-  img {
-    height: 40px;
-    padding-top: 20px;
-  }
 }

@@ -19,6 +19,11 @@
     position: relative;
     text-decoration: none;
     color: #C2E6FF;
+    transition: color 0.3s;
+  }
+
+  a:hover {
+    color: $color-2;
   }
 
   a:hover::after {
@@ -28,7 +33,8 @@
     bottom: -5px;
     width: 100%;
     height: 1px;
-    background-color: #C2E6FF;
+    background-color: #0090ff;
+    transition: background-color 0.3s;
   }
   
   li:hover {

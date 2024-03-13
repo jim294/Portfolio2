@@ -32,7 +32,7 @@ const Home = () => {
                 👋
               </div>
               <NomPrenomAnimation
-                style={{ color: "black", fontSize: getFontSize() }}
+                style={{ color: "#C2E6FF", fontSize: getFontSize() }}
                 string={welcom}
                 speed={50}
                 delay={1200}
@@ -77,43 +77,17 @@ const Home = () => {
                 <p>
                   Passionné par l'informatique, je consacre la majeure partie de
                   mon temps à la programmation. Je suis fier de vous présenter mes
-                  services, et je vous invite à explorer les projets que j'ai
-                  concrétisés, ainsi que ma description.
+                  services, et je vous invite à explorer&nbsp;
+                  <NavLink to="/realisations">
+                    les projets&nbsp; 
+                  </NavLink>
+                    que j'ai
+                  concrétisés, ainsi que&nbsp; 
+                  <NavLink to="/presentation">
+                    ma description
+                  </NavLink>.
                 </p>
                 <div className="homeLiens">
-                  <NavLink to="/realisations">
-                    <img
-                      src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
-                      alt="fleche gauche"
-                    />
-                    Voir mes projets
-                    <img
-                      src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
-                      alt="fleche droite"
-                    />
-                  </NavLink>
-                  <NavLink to="/presentation">
-                    <img
-                      src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
-                      alt="fleche gauche"
-                    />
-                    En savoir plus
-                    <img
-                      src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
-                      alt="fleche droite"
-                    />
-                  </NavLink>
-                  <NavLink to="/contact">
-                    <img
-                      src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
-                      alt="fleche gauche"
-                    />
-                    Me contacter
-                    <img
-                      src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
-                      alt="fleche droite"
-                    />
-                  </NavLink>
                 </div>
               </div>
             </div>

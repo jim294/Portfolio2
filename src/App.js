@@ -10,7 +10,6 @@ import Project from "./pages/Project";
 import ProjectPerso from "./pages/ProjectPerso";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import BackgroundAnimation from "./components/BackgroundAnimation";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -26,7 +25,6 @@ function App() {
   return (
     <HashRouter>
       <Preloader load={load} />
-      <BackgroundAnimation />
       <Header />
       <main>
         <Routes>
