@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "./Logo.jsx";
 import { NavLink } from "react-router-dom";
-import GitHub from "../assets/images/GitHub.webp"
-import X from "../assets/images/X.webp"
 
 const Footer = () => {
   return (
@@ -29,7 +27,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+            src="/images/icones/LinkedIn.webp"
             alt="logo LinkedIn"
           />
         </a>
@@ -39,7 +37,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img
-            src={X}
+            src="/images/icones/X.webp"
             alt="logo Twitter"
           />
         </a>
@@ -49,13 +47,13 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img
-            src={GitHub}
+            src="/images/icones/GitHub.webp"
             alt="logo GitHub"
           />
         </a>
         <NavLink to="/contact">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Circle-icons-mail.svg"
+            src="/images/icones/mail.webp"
             alt="logo Mail"
           />
         </NavLink>
