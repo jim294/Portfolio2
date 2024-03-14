@@ -28,7 +28,7 @@ export default function Carousel(props) {
           onClick={handlePreviousDisplay}
         >
           <img
-            src="https://i.postimg.cc/4xm2TfwR/fleche-gauche.webp"
+            src="https://i.postimg.cc/jjWqsfCz/fleche-gauche.webp"
             alt="fleche gauche"
             style={pagination === 1 ? { display: "none" } : null}
           />
@@ -42,14 +42,14 @@ export default function Carousel(props) {
             onClick={handlePreviousDisplay}
           >
             <img
-              src="https://i.postimg.cc/4xm2TfwR/fleche-gauche.webp"
+              src="https://i.postimg.cc/jjWqsfCz/fleche-gauche.webp"
               alt="fleche gauche"
               style={pagination === 1 ? { display: "none" } : null}
             />
           </div>
           <div className="carousel__arrow" onClick={handleNextDisplay}>
             <img
-              src="https://i.postimg.cc/2SSRLNw0/fleche-droite.png"
+              src="https://i.postimg.cc/Zn8tQD17/fleche-droite.webp"
               alt="fleche droite"
               style={pagination === 1 ? { display: "none" } : null}
             />
