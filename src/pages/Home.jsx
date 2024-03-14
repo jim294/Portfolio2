@@ -75,7 +75,7 @@ const Home = () => {
               <img src="https://i.postimg.cc/xCzfkTcH/Moi.webp" alt="jm" />
               <div>
                 <p>
-                  Passionné par l'informatique, je consacre la majeure partie de
+                  Passionnée par l'informatique, je consacre la majeure partie de
                   mon temps à la programmation. Je suis fier de vous présenter mes
                   services, et je vous invite à explorer&nbsp;
                   <NavLink to="/realisations">
