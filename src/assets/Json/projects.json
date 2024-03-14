@@ -199,7 +199,7 @@
 		"id": "ArgentBank",
 		"title": "ArgentBank",
 		"subtitle": "Implémentation du frontend d'une application bancaire avec React",
-		"cover": "https://i.postimg.cc/J4V5HPfs/argentbanklogo.webp",
+		"cover": "https://i.postimg.cc/DZLcjRWC/Project-13-Demo-Part-1-1.gif",
 		"pictures": [
 			"https://i.postimg.cc/J4V5HPfs/argentbanklogo.webp",
 			"https://i.postimg.cc/K8QPVFRT/Snag-1469a486.webp",
@@ -227,7 +227,7 @@
 		"id": "listepays",
 		"title": "Liste des pays",
 		"subtitle": "Drapeaux du Monde, capitales et Populations pour Tester vos connaissances ",
-		"cover": "https://i.postimg.cc/Y0Qz1gy5/appli-pays.png",
+		"cover": "https://i.postimg.cc/HWqGJfKf/pays.gif",
 		"pictures": [
 			"https://i.postimg.cc/RVVPy19K/Pays-Cover.webp"
 		],
@@ -250,9 +250,9 @@
 		"id": "nombredor",
 		"title": "Nombre d'or",
 		"subtitle": "Trouver le nombre d'or",
-		"cover": "https://i.postimg.cc/MH8yxShv/nombre-d-or.webp",
+		"cover": "https://i.postimg.cc/Wb9kwcL1/nombrOr.gif",
 		"pictures": [
-			"https://i.postimg.cc/3w4Sx3bB/nombre-d-or-cover.webp"
+			"https://i.postimg.cc/Wb9kwcL1/nombrOr.gif"
 		],
 		"description": "Une petite application sous forme de jeux où il faut trouver le nombre en proposant un chiffre. Il suffit de se laisser guider et de trouver en un minimum de coups...",
 		"rating": "2",
@@ -273,9 +273,9 @@
 		"id": "Calculette",
 		"title": "Calculatrice",
 		"subtitle": "Une initiation au JavaScript",
-		"cover": "https://i.postimg.cc/qv9HYnsk/calculatrice.png",
+		"cover": "https://i.postimg.cc/gJj6XMjT/calculette.gif",
 		"pictures": [
-			"https://i.postimg.cc/L4VNLvmq/calculatrice.gif"
+			"https://i.postimg.cc/gJj6XMjT/calculette.gif"
 		],
 		"description": "Doit-on préciser l'utilité d'une calculatrice ?",
 		"rating": "2",
@@ -296,7 +296,7 @@
 		"id": "morpion",
 		"title": "Jeux du Morpion",
 		"subtitle": "Le vrai !!! ",
-		"cover": "https://i.postimg.cc/qR14CyR9/morpion-cover.png",
+		"cover": "https://i.postimg.cc/y8y5dBWG/Morpion.gif",
 		"pictures": [
 			"https://i.postimg.cc/y8y5dBWG/Morpion.gif"
 		],

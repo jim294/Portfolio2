@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import Logo from "./Logo.jsx";
 import { NavLink } from "react-router-dom";
+import GitHub from "../assets/images/GitHub.webp"
+import X from "../assets/images/X.webp"
 
 const Footer = () => {
   return (
@@ -37,7 +39,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"
+            src={X}
             alt="logo Twitter"
           />
         </a>
@@ -47,7 +49,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+            src={GitHub}
             alt="logo GitHub"
           />
         </a>
