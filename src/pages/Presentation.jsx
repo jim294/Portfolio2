@@ -15,7 +15,7 @@ const Presentation = () => {
           src={myGiftPresentation}
           alt="Travail GIF"
         />
-        <h3>1-Présentation</h3>
+        <h3>Présentation</h3>
         <section className="cv_text ">
           <div className="photoPresentation">
             <div>
@@ -103,7 +103,7 @@ const Presentation = () => {
           </p>
         </section>
         <section className="iconesAll">
-          <h3>2-Skills</h3>
+          <h3>Skills</h3>
           <h4>- Languages & Databases -</h4>
           <div className="listIcones">
             {Icones.languages.map((item, index) => (

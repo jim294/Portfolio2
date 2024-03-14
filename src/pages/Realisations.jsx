@@ -9,7 +9,7 @@ const Realisations = () => {
       <section className="realisation">
           <img src={myProject} alt="contact GIF" />
           <img className="giftTravail" src={myGift} alt="Travail GIF" />
-        <h3>1 : OpenClassrooms</h3>
+        <h3>OpenClassrooms</h3>
         <section className="cardsBackground">
           {Projects.Openclassrooms.map((project, index) => (
             <Cards
@@ -21,7 +21,7 @@ const Realisations = () => {
             />
           ))}
         </section>
-        <h3>2 : Réalisations personnelles</h3>
+        <h3>Réalisations personnelles</h3>
         <section className="cardsBackground">
           {Projects.Perso.map((project, index) => (
             <Cards
