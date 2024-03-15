@@ -3,14 +3,18 @@
   flex-direction: column;
   gap: 30px;
   margin-bottom: 80px;
-
   p {
     text-align: justify;
     margin: 20px;
+    line-height: 40px;
   }
   img {
     width: 100%;
     height: auto;
+  }
+  span {
+    color: #B08B5B;
+    font-weight: bolder;
   }
   .photoPresentation {
     display: flex;

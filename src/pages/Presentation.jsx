@@ -21,11 +21,11 @@ const Presentation = () => {
           <div className="photoPresentationReverse">
             <div>
               <p>
-                Aprés avoir obtenu avec succès une licence en commerce (Bac+3),
+                Aprés avoir obtenu avec succès une <span>licence en commerce (Bac+3)</span>,
                 j'ai consacré plusieurs années à des responsabilités dans le
                 secteur de la grande distribution . Cependant, après avoir
                 effectué un bilan de compétences il y a quelques années, j'ai
-                réalisé que le monde du développement informatique représentait
+                réalisé que le monde du <span>développement informatique</span> représentait
                 une véritable source d'épanouissement pour moi.
               </p>
             </div>
@@ -36,11 +36,10 @@ const Presentation = () => {
           <div className="photoPresentation">
             <div>
               <p>
-                Fort de cette prise de conscience, j'ai entrepris une
-                reconversion professionnelle, mettant en lumière ma passion de
+                Fort de cette prise de conscience, j'ai entrepris une <span>reconversion professionnelle</span>, mettant en lumière ma passion de
                 longue date pour l'informatique, présente depuis mon plus jeune
                 âge. Au cours de cette année de reconversion, j'ai concentré mes
-                efforts sur l'apprentissage des langages informatiques de base,
+                efforts sur l'apprentissage des <span>langages informatiques de base</span>,
                 développant ainsi les compétences nécessaires pour évoluer dans
                 le domaine du développement informatique.
               </p>
@@ -52,11 +51,11 @@ const Presentation = () => {
           <div className="photoPresentationReverse">
             <div>
               <p>
-                Passionné par le monde du développement web, je m'efforce
+                Passionné par le monde du <span>développement web</span>, je m'efforce
                 constamment de me perfectionner, avec un intérêt particulier
-                pour React, une bibliothèque JavaScript que je trouve
+                pour <span>React</span>, une bibliothèque JavaScript que je trouve
                 particulièrement puissante et captivante. A ce titre, je viens
-                de valider ma formation d'integrateur Web chez OpenClassrooms.
+                de valider ma formation d'<span>integrateur Web</span> chez OpenClassrooms.
               </p>
             </div>
             <div>
@@ -66,12 +65,10 @@ const Presentation = () => {
           <div className="photoPresentation">
             <div>
               <p>
-                Mon parcours professionnel antérieur m'a doté de compétences en
-                gestion et en leadership, que je compte mettre à profit dans le
+                Mon parcours professionnel antérieur m'a doté de compétences en <span>gestion et en leadership</span>, que je compte mettre à profit dans le
                 domaine informatique. Au-delà de l'apprentissage des
-                technologies, j'accorde une grande importance à la qualité de
-                mon code. Je considère que la clarté et la lisibilité du code
-                sont essentielles, et je m'efforce toujours de produire un
+                technologies, j'accorde une grande importance à la <span>qualité de
+                mon code</span>. Je considère que la <span>clarté et la lisibilité du code</span> sont essentielles, et je m'efforce toujours de produire un
                 travail soigné et bien structuré.
               </p>
             </div>
@@ -81,8 +78,8 @@ const Presentation = () => {
           </div>
           <p>
             Après l'obtention de mon diplôme, mon objectif principal est de
-            continuer à me perfectionner, explorer de nouvelles technologies et
-            rester à la pointe des dernières tendances du développement web.
+            continuer à me perfectionner, explorer de <span>nouvelles technologies</span> et
+            rester à la pointe des <span>dernières tendances du développement web</span>.
             <br /> Je suis convaincu que l'apprentissage continu est la clé pour
             exceller dans ce domaine en constante évolution.
           </p>
