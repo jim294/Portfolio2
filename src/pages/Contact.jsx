@@ -1,5 +1,4 @@
 import Form from "../components/Form";
-import ContactMe from '../assets/images/Contactez-moi.gif'
 
 const Contact = () => {
   return (
@@ -7,7 +6,7 @@ const Contact = () => {
       <main>
         <section>
           <div className="contact">
-            <img src={ContactMe} alt="contact GIF" />
+            <img src="/images/divers/Contactez-moi.gif" alt="contact GIF" />
             <Form />
             <div>
             <p>

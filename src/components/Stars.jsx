@@ -1,6 +1,3 @@
-import ActiveStar from "../assets/images/Active-star.webp"
-import InactiveStar from "../assets/images/Inactive-star.webp"
-
 function Stars({ numberActiveStars, numberInactiveStars }) {
   const stars = [];
 
@@ -8,7 +5,7 @@ function Stars({ numberActiveStars, numberInactiveStars }) {
     stars.push(
       <img
         key={i}
-        src={ActiveStar}
+        src="/images/divers/Active-star.webp"
         alt="Étoile active"
       />
     );
@@ -18,7 +15,7 @@ function Stars({ numberActiveStars, numberInactiveStars }) {
     stars.push(
       <img
         key={i + numberActiveStars}
-        src={InactiveStar}
+        src="/images/divers/Inactive-star.webp"
         alt="Étoile inactive"
       />
     );

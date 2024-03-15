@@ -1,18 +1,11 @@
 import Icones from "../assets/Json/icones.json";
-import myGiftPresentation from "../assets/images/présentation.gif";
-import besac from "../assets/images/Besancon_boucle_Doubs.webp";
-import diplome from "../assets/images/diplome.webp";
-import manWork from "../assets/images/manwork.webp";
-import openClassrooms from "../assets/images/openclassroomslogo.webp";
-import intelligenceImage from "../assets/images/intelligence.webp";
-
 const Presentation = () => {
   return (
     <>
       <main>
         <img
           className="giftPresentation"
-          src={myGiftPresentation}
+          src="/images/divers/présentation.gif"
           alt="Travail GIF"
         />
         <h3>Présentation</h3>
@@ -22,7 +15,7 @@ const Presentation = () => {
               <p>Je suis originaire de Besançon.</p>
             </div>
             <div>
-              <img src={besac} alt="besancon" />
+              <img src="/images/divers/Besancon.webp" alt="besancon" />
             </div>
           </div>
           <div className="photoPresentationReverse">
@@ -37,7 +30,7 @@ const Presentation = () => {
               </p>
             </div>
             <div>
-              <img src={diplome} alt="diplome" />
+              <img src="/images/divers/diplome.webp" alt="diplome" />
             </div>
           </div>
           <div className="photoPresentation">
@@ -53,7 +46,7 @@ const Presentation = () => {
               </p>
             </div>
             <div>
-              <img src={manWork} alt="man at work" />
+              <img src="/images/divers/manwork.webp" alt="man at work" />
             </div>
           </div>
           <div className="photoPresentationReverse">
@@ -67,7 +60,7 @@ const Presentation = () => {
               </p>
             </div>
             <div>
-              <img src={openClassrooms} alt="openClassrooms" />
+              <img src="images/divers/openclassroomslogo.webp" alt="openClassrooms" />
             </div>
           </div>
           <div className="photoPresentation">
@@ -83,7 +76,7 @@ const Presentation = () => {
               </p>
             </div>
             <div>
-              <img src={intelligenceImage} alt="cerveau" />
+              <img src="/images/divers/intelligence.webp" alt="cerveau" />
             </div>
           </div>
           <p>

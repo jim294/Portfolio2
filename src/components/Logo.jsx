@@ -1,10 +1,9 @@
 import React from "react";
-import imgLogo from "../assets/images/Logo2.webp";
 
 const Logo = () => {
   return (
     <div>
-      <img src={imgLogo} alt="logo Jm" className="logoJm" />
+      <img src="/images/divers/Logo2.webp" alt="logo Jm" className="logoJm" />
     </div>
   );
 };

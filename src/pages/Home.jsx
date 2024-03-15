@@ -28,11 +28,8 @@ const Home = () => {
         <section className="home">
           <div className="titleStructure">
             <div className="home__structure__welcom">
-              <div className="smiley-hand" role="img" aria-label="smiley-hand">
-                👋
-              </div>
               <NomPrenomAnimation
-                style={{ color: "#C2E6FF", fontSize: getFontSize() }}
+                style={{ color: "#FAF9F6", fontSize: getFontSize() }}
                 string={welcom}
                 speed={50}
                 delay={1200}

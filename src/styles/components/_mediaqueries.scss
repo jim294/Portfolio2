@@ -88,7 +88,8 @@
   /** Home **/
 
   .smiley-hand {
-    font-size: 2em;
+    font-size: 3em;
+    margin-bottom: 30px;
   }
 
   .home__structure__components {
@@ -137,6 +138,13 @@
     flex-direction: column;
     gap: 30px;
     margin-top: 20px;
+    h1 {
+      font-size: 80px;
+      font-weight: 800;
+    }
+    p {
+      font-size: 20px;
+    }
     ul {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -223,6 +231,21 @@
   .contact {
     img {
       height: 200px;
+    }
+  }
+  .smiley-hand {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  .project {
+    &__left {
+      h1 {
+        font-size: 40px;
+        font-weight: 800;
+      }
+      p {
+        font-size: 15px;
+      }
     }
   }
 }
