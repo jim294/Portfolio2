@@ -16,7 +16,7 @@
 .smiley-hand {
   font-size: 4em;
   animation: wave 5s infinite;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .titleStructure {
@@ -29,7 +29,7 @@
 .home__structure__components {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 20px;
   align-items: center;
   text-align: center;
@@ -47,6 +47,7 @@
 
 .home__structure__welcom {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
