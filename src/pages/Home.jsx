@@ -64,7 +64,7 @@ const Home = () => {
                       autoStart: true,
                       loop: true,
                       delay: 100,
-                      strings: ["développeur Web"],
+                      strings: ["Développeur Web"],
                     }}
                   ></Typewriter>
                 </span>
