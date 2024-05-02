@@ -43,6 +43,11 @@
   "tools":
   [
 	{
+		"title": "/images/icones/wordpress.gif",
+		"description":
+		  "Wordpress"
+	  },
+	{
 		"title": "/images/icones/GitHub.gif",
 		"description":
 		  "GitHub"
