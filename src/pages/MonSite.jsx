@@ -61,7 +61,7 @@ const MonSite = () => {
         />
         <Collapse
           key={Math.random()}
-          title="Liens"
+          title="Lien"
           description={
             <ul className="collapseLiens">
               <li>
