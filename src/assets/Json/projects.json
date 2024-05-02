@@ -316,7 +316,29 @@
 			"JavaScript"
 		]
 	}
-
-	
+],
+"MonSite":
+[
+	{
+		"id": "MonSiteWeb",
+		"title": "JM",
+		"subtitle": "Mon site Perso",
+		"cover": "/images/divers/logo2.webp",
+		"pictures": [
+			"/images/divers/logo2.webp"
+		],
+		"description": "Afin de comprendre et connaitre Worpress, j'ai fait ce site de A à Z",
+		"rating": "3",
+		"site": "",
+		"lien1": [
+			"https://jmdeschamps.fr/"
+		],
+		"lien2": [
+			""
+		],
+		"tags": [
+			"Uniquement Wordpress"
+		]
+	}
 ]
 }

@@ -5,8 +5,24 @@ const Realisations = () => {
   return (
     <>
       <section className="realisation">
-          <img src="/images/divers/mes-projets.gif" alt="contact GIF" />
-          <img className="giftTravail" src="/images/divers/travail.gif" alt="Travail GIF" />
+        <img src="/images/divers/mes-projets.gif" alt="contact GIF" />
+        <img
+          className="giftTravail"
+          src="/images/divers/travail.gif"
+          alt="Travail GIF"
+        />
+        <h3>Mon site Web (WORDPRESS)</h3>
+        <section className="cardsBackground">
+          {Projects.MonSite.map((project, index) => (
+            <Cards
+              key={index}
+              title={project.title}
+              subtitle={project.subtitle}
+              imageUrl={project.cover}
+              link={`/monsite/${project.id}`}
+            />
+          ))}
+        </section>
         <h3>OpenClassrooms</h3>
         <section className="cardsBackground">
           {Projects.Openclassrooms.map((project, index) => (

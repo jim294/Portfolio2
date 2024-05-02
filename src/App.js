@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import Project from "./pages/Project";
 import ProjectPerso from "./pages/ProjectPerso";
+import MonSite from "./pages/MonSite";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projectcours/:id" element={<Project />} />
           <Route path="/projectperso/:id" element={<ProjectPerso />} />
+          <Route path="/monsite/:id" element={<MonSite />} />
           <Route path="/*" element={<Error />} />
         </Routes>
       </main>
