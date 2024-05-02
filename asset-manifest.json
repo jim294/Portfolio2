@@ -1,24 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.903c44f4.css",
-    "main.js": "./static/js/main.3483173b.js",
-    "static/media/présentation.gif": "./static/media/présentation.7bea99bbba68e999205f.gif",
-    "static/media/Travail.gif": "./static/media/Travail.2997f441ff25ecaf9d04.gif",
-    "static/media/manwork.webp": "./static/media/manwork.4cd0358b49359239ae52.webp",
-    "static/media/intelligence.webp": "./static/media/intelligence.c6aaddb1de1ec5bd7eee.webp",
+    "main.css": "./static/css/main.12e44960.css",
+    "main.js": "./static/js/main.86ecd757.js",
     "static/media/Montserrat-Medium.ttf": "./static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
-    "static/media/Mes-projets.gif": "./static/media/Mes-projets.679d817fd168214d7791.gif",
-    "static/media/Contactez-moi.gif": "./static/media/Contactez-moi.9b52327d16d83eae1045.gif",
-    "static/media/openclassroomslogo.webp": "./static/media/openclassroomslogo.cb652cc25cc4a61609f6.webp",
-    "static/media/Besancon_boucle_Doubs.webp": "./static/media/Besancon_boucle_Doubs.9a5e3bf70ac170d7d222.webp",
-    "static/media/diplome.webp": "./static/media/diplome.af9a80179744a15dee8a.webp",
-    "static/media/preload.svg": "./static/media/preload.edd80a9083a60ba113f7.svg",
+    "static/media/preload.svg": "./static/media/preload.87ee83961fb0d5c1c34d.svg",
     "index.html": "./index.html",
-    "main.903c44f4.css.map": "./static/css/main.903c44f4.css.map",
-    "main.3483173b.js.map": "./static/js/main.3483173b.js.map"
+    "main.12e44960.css.map": "./static/css/main.12e44960.css.map",
+    "main.86ecd757.js.map": "./static/js/main.86ecd757.js.map"
   },
   "entrypoints": [
-    "static/css/main.903c44f4.css",
-    "static/js/main.3483173b.js"
+    "static/css/main.12e44960.css",
+    "static/js/main.86ecd757.js"
   ]
 }
